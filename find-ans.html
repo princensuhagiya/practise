@@ -1,10 +1,21 @@
 <!-- ((b*b)- (4*a*c))/(2*a) -->
+<h1>((b*b)- (4*a*c))/(2*a)</h1>
+<script text="text/javascript">
 
+    let b = (parseInt(prompt("Enter value of b :")));
+    let a = (parseInt(prompt("Enter value of a :")));
+    let c = (parseInt(prompt("Enter value of c :")));
+  
 
-<script>
+    function findAns(b, a, c) {
 
-    
+        return (((b*b) - (4 * a * c))/2*a);
 
+    }
+    let ans = findAns(b, a, c);
+
+     document.write("<br>a = " + a + "<br>b =" + b + "<br>c =" + c + "<br>" );
+     document.write("This is ans" + ans);
 
 
 </script>
