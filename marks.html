@@ -1,0 +1,113 @@
+<script type="text/javascript">
+
+    let physics = (parseInt(prompt("Enter Marks Physics :")));
+    let chemistry = (parseInt(prompt("Enter Marks chemistry :")));
+    let biology = (parseInt(prompt("Enter Marks biology :")));
+    let mathematic = (parseInt(prompt("Enter Marks Physics :")));
+    let computer = (parseInt(prompt("Enter Marks Computer :")));
+
+    let per;
+    let avg;
+
+    function percentageFind() {
+
+        return (physics + chemistry + biology + mathematic + computer);
+
+    }
+
+    let total = percentageFind();
+    per = (total / 500) * 100;
+    avg = (total / 5);
+
+
+    document.write("Todal  of :" + total + "<br>");
+
+    document.write("<br>Todal Percentage of :" + per + "<br>");
+
+    document.write("<br>Todal Avg of :" + avg + "<br>");
+
+
+
+    if (per > 100) {
+
+
+        document.write(per + "Fiale");
+
+
+    } else if (per > 90) {
+
+        document.write(per + "%Grade A+");
+
+    } else if (per > 80) {
+
+        document.write(per + "%Grade B");
+
+    } else if (per > 70) {
+
+        document.write(per + "%Grade C");
+
+    } else if (per > 60) {
+
+        document.write(per + "%Grade D");
+
+    } else if (per > 50) {
+
+        document.write(per + "%Grade E");
+
+    } else if (per > 40) {
+
+        document.write(per + "%Grade F");
+
+    } else{
+
+        document.write( "A+" );
+    }
+
+
+
+
+
+    // reversh conditiobn check form high to low 
+
+    // if (per < 0) {
+
+    //     document.write(per + "Fiale");
+
+    // } else if (per > 30 && per < 41) {
+
+    //     document.write(per + "% : Grade F");
+
+    // } else if(per > 40 && per < 51){
+
+    //     document.write(per + "% : Grade E");
+
+    // }else if(per > 50 && per < 61){
+
+    //     document.write(per + "% : Grade D");
+
+
+    // }else if(per > 60 && per < 71){
+
+    //     document.write(per + "% : Grade C");
+
+    // }else if(per > 70 && per < 81){
+
+    //     document.write(per + "% : Grade B");
+
+    // }else if(per > 80 && per < 91){
+
+    //     document.write(per + "% : Grade A");
+    // }else{
+
+
+    //     document.write(per + "% : Grade A+")
+
+    // }
+
+
+
+
+
+
+
+</script>
