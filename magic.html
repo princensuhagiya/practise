@@ -1,0 +1,58 @@
+<script>
+
+
+let num = 1729;
+let sum = 0;
+let rem = 0;
+let rev = 0;
+let total;
+
+
+
+let temp = num;
+
+while(temp > 0){
+
+     let r = temp % 10;
+
+     sum = sum + r;
+
+     temp = parseInt(temp / 10);
+     
+}
+
+
+let sum1 = sum;
+
+
+while(sum1 > 0){
+
+    console.log(sum1);
+
+    rem = sum1 % 10;
+
+    console.log(rem);
+
+    rev = rev*10+rem;
+
+
+    sum1 = parseInt(sum1 /= 10);
+
+
+}
+if(rev * sum == num){
+
+    console.log("Is magic number :" + num);
+
+}else{
+
+
+    console.log("Is  Not magic  number :" + num);
+
+
+
+}
+
+
+
+</script>
