@@ -1,0 +1,35 @@
+<script>
+
+
+    let num = parseInt(prompt("enter number :"));
+    let sum = 0;
+
+
+
+    let temp = num;
+
+    while (num > 0) {
+
+        let r = num % 10;
+
+        sum = (sum * 10) + r;
+
+         num = parseInt(num / 10);
+
+    }
+
+    if (temp == sum) {
+
+        document.write("This num is Palimdrom Num : " + temp);
+
+
+    } else {
+
+        document.write("This num is not Palimdrom Num :" + temp);
+
+    }
+
+
+
+
+</script>
