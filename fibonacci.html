@@ -6,10 +6,21 @@
     let t1 = 0;
     let t2 = 1;
 
-    nextTerm = t1 + t2;
+      nextTerm = t1 + t2;
+
+      console.log(t1);
+      console.log(t2);
 
     while (nextTerm <= num) {
 
+ 
+     console.log(nextTerm);
+
+     t1 = t2;
+     t2 = nextTerm;
+
+     nextTerm = t1 + t2;
+         
 
     }
 
