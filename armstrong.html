@@ -1,37 +1,33 @@
 <script type="text/javascript">
 
-
-// program to check an Armstrong number of three digits
-
-let = sum = 0;
-let num = parseInt(prompt("Enter Value of Num"));
+let num = (parseInt(prompt("Enter e value of :")))
+let sum = 0;
 
 
 let team = num;
+
 while(team > 0){
 
-   
-    let reminder = team % 10;
-    // 
-   console.log( sum += reminder * reminder * reminder);
+     let reminder = team % 10;
 
-       console.log( team = parseInt(team / 10)
-);
+     sum += reminder ** 3;
 
+     team = parseInt(team / 10);
 }
 
-if(sum == num){
+if(sum === num){
 
 
-    document.write("A number is Armstong number :" + sum);
+    document.write("A number is armstong number : " + sum);
+
 
 }else{
 
-    document.write("A number  is not Armstong number :" + num);
+    document.write("A number is  not armstong number : " + num);
+
 
 }
 
+
+
 </script>
-
-
-
