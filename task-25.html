@@ -1,0 +1,36 @@
+<script>
+
+
+let num = 175;
+let  sum = 0 ;
+let rem = 0 ;
+let n ;
+
+let l = num.toString().length;
+
+n = num;
+
+
+while(num > 0){
+
+ rem  = num % 10;
+ sum = sum + parseInt( (rem.toString().l ));
+
+ num = num / 10 ;
+
+ l--; 
+
+}
+
+if(sum == n) {
+
+ document.write("is disarium  number" + n);
+
+} else {
+
+    document.write("is Not disarium  number" + n);
+}
+
+
+
+</script>
